@@ -1,0 +1,1226 @@
+[13-Jan-2026 16:30:38 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[13-Jan-2026 16:39:36 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[13-Jan-2026 16:39:36 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[13-Jan-2026 16:39:42 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[13-Jan-2026 16:39:42 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[13-Jan-2026 16:39:43 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[13-Jan-2026 16:39:43 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 5
+[14-Jan-2026 09:16:10 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[14-Jan-2026 09:16:22 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[14-Jan-2026 09:16:37 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[14-Jan-2026 09:33:11 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:11 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:12 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:13 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:14 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:15 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:16 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:16 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:18 Asia/Colombo] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:33:18 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:11 Asia/Colombo] PHP Warning:  include(./includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:11 Asia/Colombo] PHP Warning:  include(): Failed opening './includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:12 Asia/Colombo] PHP Warning:  include(./includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:12 Asia/Colombo] PHP Warning:  include(): Failed opening './includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:26 Asia/Colombo] PHP Warning:  include(./includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:34:26 Asia/Colombo] PHP Warning:  include(): Failed opening './includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:38 Asia/Colombo] PHP Warning:  include(.../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:38 Asia/Colombo] PHP Warning:  include(): Failed opening '.../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:38 Asia/Colombo] PHP Warning:  include(.../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:38 Asia/Colombo] PHP Warning:  include(): Failed opening '.../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:39 Asia/Colombo] PHP Warning:  include(.../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:39 Asia/Colombo] PHP Warning:  include(): Failed opening '.../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:39 Asia/Colombo] PHP Warning:  include(.../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:39:39 Asia/Colombo] PHP Warning:  include(): Failed opening '.../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:41:58 Asia/Colombo] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:41:58 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:41:59 Asia/Colombo] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:41:59 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:16 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:17 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:17 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:17 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:17 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 72
+[14-Jan-2026 09:42:39 Asia/Colombo] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\transactions.php on line 101
+[14-Jan-2026 09:42:39 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\transactions.php on line 101
+[14-Jan-2026 09:54:57 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:57 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:58 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:58 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:58 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:58 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:54:59 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:00 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:01 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:23 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:24 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:25 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:26 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:30 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:30 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:31 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:31 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:31 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:31 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:35 Asia/Colombo] PHP Warning:  include(header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 09:55:35 Asia/Colombo] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 91
+[14-Jan-2026 10:05:34 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[14-Jan-2026 10:05:37 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:61
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(61): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 61
+[14-Jan-2026 10:06:18 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:58
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(58): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 58
+[14-Jan-2026 10:06:18 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:58
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(58): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 58
+[14-Jan-2026 10:06:18 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:58
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(58): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 58
+[14-Jan-2026 10:06:18 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:58
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(58): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 58
+[14-Jan-2026 10:06:20 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:58
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(58): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 58
+[14-Jan-2026 10:06:45 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:45 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:45 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:46 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:47 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:47 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:47 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:06:47 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:56
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(56): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 56
+[14-Jan-2026 10:07:01 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:02 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:04 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:04 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:04 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:04 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:05 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:06 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:06 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:06 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:07 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:07 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:42 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:07:44 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:10:48 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:15:18 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:18 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:21 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:15:21 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:15:22 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:22 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:22 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:15:22 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:15:23 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:15:23 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:15:23 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 10:15:23 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 10:15:24 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:15:24 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:15:25 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:15:27 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:27 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:33 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:33 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:37 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:15:37 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:16:52 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:17:32 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:17:32 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:17:34 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:17:34 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:17:37 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:17:37 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:17:41 Asia/Colombo] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\create.php on line 58
+[14-Jan-2026 10:17:41 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\create.php on line 58
+[14-Jan-2026 10:17:41 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\create.php on line 151
+[14-Jan-2026 10:17:41 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\create.php on line 151
+[14-Jan-2026 10:17:53 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:17:53 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:07 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:18:07 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:18:09 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:18:09 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:18:11 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 10:18:11 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 10:18:13 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:18:13 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:18:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:22 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:23 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:23 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:23 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:23 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:18:27 Asia/Colombo] PHP Warning:  include(../includes/header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\create_invoice.php on line 42
+[14-Jan-2026 10:18:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\create_invoice.php on line 42
+[14-Jan-2026 10:18:27 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\create_invoice.php on line 397
+[14-Jan-2026 10:18:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\create_invoice.php on line 397
+[14-Jan-2026 10:26:45 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:26:45 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 10:26:47 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:26:47 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 10:26:49 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:26:49 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 10:26:51 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:26:51 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\customers\list.php on line 163
+[14-Jan-2026 10:26:52 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[14-Jan-2026 15:06:54 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:06:54 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:06:56 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:06:56 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:06:57 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:06:57 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:06:59 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:06:59 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:07:02 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 15:07:02 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\inventory\stock_levels.php on line 192
+[14-Jan-2026 15:07:03 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 15:07:03 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\production\orders.php on line 211
+[14-Jan-2026 15:16:34 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:34 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:36 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:36 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:36 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:36 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:37 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:37 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:37 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:37 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:50 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:50 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:51 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:16:51 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:17:09 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:17:09 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:39:54 Asia/Colombo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:39:54 Asia/Colombo] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in C:\xampp\htdocs\textile_system\includes\functions.php:54
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\includes\functions.php(54): in_array('all', NULL)
+#1 C:\xampp\htdocs\textile_system\dashboard.php(190): has_permission('sales', 'read')
+#2 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\functions.php on line 54
+[14-Jan-2026 15:40:08 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:40:08 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 463
+[14-Jan-2026 15:41:39 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:41:39 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:42:12 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:42:12 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:20 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:20 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:27 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:28 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:45:28 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:35 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:35 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:35 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:35 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:58 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:59 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:47:59 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:48:10 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:48:10 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:48:43 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:48:43 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:29 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:30 Asia/Colombo] PHP Warning:  include(includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:30 Asia/Colombo] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\dashboard.php on line 460
+[14-Jan-2026 15:52:30 Asia/Colombo] PHP Warning:  include(../includes/footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[14-Jan-2026 15:52:30 Asia/Colombo] PHP Warning:  include(): Failed opening '../includes/footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\textile_system\sales\invoices.php on line 224
+[16-Jan-2026 09:44:27 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:44:27 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:44:27 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:44:27 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:44:34 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:44:34 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:44:34 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:44:34 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:44:52 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:44:52 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:44:52 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:44:52 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:44:59 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:44:59 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:44:59 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:44:59 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:45:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:45:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:45:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:45:12 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:57:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:57:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:57:12 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:57:12 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 09:57:18 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 12
+[16-Jan-2026 09:57:18 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 13
+[16-Jan-2026 09:57:18 Asia/Colombo] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\textile_system\config\config.php on line 14
+[16-Jan-2026 09:57:18 Asia/Colombo] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\textile_system\config\config.php on line 15
+[16-Jan-2026 10:17:41 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:17:44 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:18:11 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:19:23 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:20:03 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:04 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:05 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:07 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:08 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:11 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:13 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\sales\invoices.php(220): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:20:31 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:38
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 38
+[16-Jan-2026 10:21:50 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:51 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:51 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:51 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:51 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:52 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:52 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:21:52 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:23:57 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:27:03 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\profile.php(77): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:27:09 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\admin\users.php(186): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:27:59 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\admin\users.php(186): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:28:26 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\profile.php(77): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:28:31 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\change_password.php(100): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:28:52 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:17 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\production\create_order.php(305): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:21 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\production\orders.php(209): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:24 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\inventory\stock_levels.php(191): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:26 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\inventory\transactions.php(238): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:28 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\inventory\transfer.php(246): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:37 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\inventory\stock_levels.php(191): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:38 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\production\orders.php(209): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:39 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\reports\index.php(143): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:40 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:43 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\profile.php(77): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:49 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\change_password.php(100): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:29:59 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:03 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\admin\users.php(186): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:40 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:41 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\sales\invoices.php(220): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:42 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\inventory\stock_levels.php(191): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:43 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\production\orders.php(209): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:44 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(161): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:30:45 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:30:49 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:30:55 Asia/Colombo] PHP Fatal error:  Uncaught Error: Undefined constant "CURRENCY_SYMBOL" in C:\xampp\htdocs\textile_system\includes\footer.php:43
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\dashboard.php(286): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\includes\footer.php on line 43
+[16-Jan-2026 10:52:34 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 10:53:06 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cs.overdue_days' in 'field list' in C:\xampp\htdocs\textile_system\accounting\credit_sales.php:55
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\accounting\credit_sales.php(55): PDO->prepare('SELECT cs.*, c....')
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\accounting\credit_sales.php on line 55
+[16-Jan-2026 11:47:13 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:47:56 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:47:57 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:47:57 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:47:57 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:47:57 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\outputs.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\outputs.php on line 7
+[16-Jan-2026 11:57:31 Asia/Colombo] PHP Fatal error:  Uncaught Error: Call to undefined function checkAuth() in C:\xampp\htdocs\textile_system\production\view_output.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\textile_system\production\view_output.php on line 7
+[16-Jan-2026 12:00:39 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:01:09 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:17 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:17 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:17 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:56 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:57 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:02:58 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:12 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:13 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:14 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:15 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:03:16 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:04:05 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:04:05 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:04:05 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:04:05 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
+[16-Jan-2026 12:04:06 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\textile_system\customers\list.php:41
+Stack trace:
+#0 C:\xampp\htdocs\textile_system\customers\list.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\textile_system\customers\list.php on line 41
