@@ -1,4 +1,7 @@
 <?php
+// Include language system
+require_once __DIR__ . '/language.php';
+
 if (!function_exists('display_flash_message')) {
     function display_flash_message($type)
     {
@@ -13,18 +16,28 @@ if (!function_exists('display_flash_message')) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo getCurrentLanguage(); ?>">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $page_title ?? 'Dashboard'; ?> - <?php echo APP_NAME; ?></title>
+    <title><?php echo $page_title ?? __('dashboard'); ?> - <?php echo APP_NAME; ?></title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS (if needed) -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+
+    <!-- Sinhala Font -->
+    <?php if (getCurrentLanguage() === 'si'): ?>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <?php endif; ?>
 
     <!-- Custom CSS -->
     <style>
@@ -35,7 +48,7 @@ if (!function_exists('display_flash_message')) {
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: <?php echo getCurrentLanguage() === 'si' ? '"Noto Sans Sinhala", ' : ''; ?>'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #f8f9fa;
         }
 
@@ -146,6 +159,22 @@ if (!function_exists('display_flash_message')) {
             top: 20px;
             z-index: 100;
         }
+
+        /* Language Switcher Styles */
+        .language-switcher .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .language-switcher .flag-icon {
+            font-size: 1.2em;
+        }
+
+        .language-switcher .dropdown-item.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
     </style>
 </head>
 
@@ -154,65 +183,65 @@ if (!function_exists('display_flash_message')) {
     <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <h4><i class="fas fa-industry"></i> TMS</h4>
-            <small>Textile Management System</small>
+            <small><?php echo __('textile_management_system'); ?></small>
         </div>
 
         <div class="sidebar-menu">
             <a href="<?php echo BASE_URL; ?>/dashboard.php" class="<?php echo basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'active' : ''; ?>">
-                <i class="fas fa-tachometer-alt"></i> Dashboard
+                <i class="fas fa-tachometer-alt"></i> <?php echo __('dashboard'); ?>
             </a>
 
             <?php if (has_permission('sales', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/sales/invoices.php">
-                    <i class="fas fa-file-invoice"></i> Sales & Invoices
+                    <i class="fas fa-file-invoice"></i> <?php echo __('sales_invoices'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('inventory', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/inventory/stock_levels.php">
-                    <i class="fas fa-warehouse"></i> Inventory
+                    <i class="fas fa-warehouse"></i> <?php echo __('inventory'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('production', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/production/orders.php">
-                    <i class="fas fa-industry"></i> Production
+                    <i class="fas fa-industry"></i> <?php echo __('production'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('customers', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/customers/list.php">
-                    <i class="fas fa-users"></i> Customers
+                    <i class="fas fa-users"></i> <?php echo __('customers'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('credit', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/accounting/credit_sales.php">
-                    <i class="fas fa-credit-card"></i> Credit Sales
+                    <i class="fas fa-credit-card"></i> <?php echo __('credit_sales'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('accounting', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/accounting/reports.php">
-                    <i class="fas fa-calculator"></i> Accounting
+                    <i class="fas fa-calculator"></i> <?php echo __('accounting'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('reports', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/reports/index.php">
-                    <i class="fas fa-chart-bar"></i> Reports
+                    <i class="fas fa-chart-bar"></i> <?php echo __('reports'); ?>
                 </a>
             <?php endif; ?>
 
             <?php if (has_permission('all', 'read')): ?>
                 <a href="<?php echo BASE_URL; ?>/admin/users.php">
-                    <i class="fas fa-users-cog"></i> User Management
+                    <i class="fas fa-users-cog"></i> <?php echo __('user_management'); ?>
                 </a>
                 <a href="<?php echo BASE_URL; ?>/admin/products.php">
-                    <i class="fas fa-box"></i> Products
+                    <i class="fas fa-box"></i> <?php echo __('products'); ?>
                 </a>
                 <a href="<?php echo BASE_URL; ?>/admin/branches.php">
-                    <i class="fas fa-building"></i> Branches
+                    <i class="fas fa-building"></i> <?php echo __('branches'); ?>
                 </a>
             <?php endif; ?>
         </div>
@@ -228,25 +257,57 @@ if (!function_exists('display_flash_message')) {
                         <i class="fas fa-bars"></i>
                     </button>
                     <span class="text-muted">
-                        <i class="fas fa-building"></i> <?php echo $_SESSION['branch_name'] ?? 'All Branches'; ?>
+                        <i class="fas fa-building"></i> <?php echo $_SESSION['branch_name'] ?? __('all_branches'); ?>
                     </span>
                 </div>
-                <div class="dropdown">
-                    <button class="btn btn-link dropdown-toggle text-decoration-none" data-bs-toggle="dropdown">
-                        <i class="fas fa-user-circle"></i> <?php echo $_SESSION['full_name']; ?>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><span class="dropdown-item-text"><strong><?php echo $_SESSION['role_name']; ?></strong></span></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>/profile.php"><i class="fas fa-user"></i> Profile</a></li>
-                        <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>/change_password.php"><i class="fas fa-key"></i> Change Password</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item text-danger" href="<?php echo BASE_URL; ?>/logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
-                    </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Language Switcher -->
+                    <div class="dropdown language-switcher">
+                        <button class="btn btn-link dropdown-toggle text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-language"></i> <?php echo getLanguageName(); ?>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item <?php echo getCurrentLanguage() === 'en' ? 'active' : ''; ?>"
+                                    href="?lang=en">
+                                    <span class="flag-icon">🇬🇧</span>
+                                    English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item <?php echo getCurrentLanguage() === 'si' ? 'active' : ''; ?>"
+                                    href="?lang=si">
+                                    <span class="flag-icon">🇱🇰</span>
+                                    සිංහල
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- User Menu -->
+                    <div class="dropdown">
+                        <button class="btn btn-link dropdown-toggle text-decoration-none" data-bs-toggle="dropdown">
+                            <i class="fas fa-user-circle"></i> <?php echo $_SESSION['full_name']; ?>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><span class="dropdown-item-text"><strong><?php echo $_SESSION['role_name']; ?></strong></span></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>/profile.php">
+                                    <i class="fas fa-user"></i> <?php echo __('profile'); ?>
+                                </a></li>
+                            <li><a class="dropdown-item" href="<?php echo BASE_URL; ?>/change_password.php">
+                                    <i class="fas fa-key"></i> <?php echo __('change_password'); ?>
+                                </a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-danger" href="<?php echo BASE_URL; ?>/logout.php">
+                                    <i class="fas fa-sign-out-alt"></i> <?php echo __('logout'); ?>
+                                </a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,3 +319,5 @@ if (!function_exists('display_flash_message')) {
         echo display_flash_message('info');
         echo display_flash_message('warning');
         ?>
+
+        <!-- Page Content Starts Here -->
