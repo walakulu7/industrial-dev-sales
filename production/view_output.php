@@ -3,32 +3,9 @@ require_once '../config/database.php';
 require_once '../config/config.php';
 require_once '../includes/functions.php';
 
-/**
- * Check authentication - wrapper for require_login()
- * Alias for require_login() for backwards compatibility
- */
-function checkAuth()
-{
-    return require_login();
-}
-
-/**
- * Check user permission - wrapper for has_permission()
- * @param string $permission Permission name (can be single or simplified)
- * @return bool
- */
-function hasPermission($permission)
-{
-    return has_permission($permission, '');
-}
-
 // Check authentication
-checkAuth();
-
-// Check permission
-if (!hasPermission('production') && !hasPermission('all')) {
-    redirect('dashboard.php');
-}
+require_login();
+require_permission('production', 'read');
 
 $database = new Database();
 $db = $database->getConnection();
@@ -36,8 +13,9 @@ $db = $database->getConnection();
 $output_id = $_GET['id'] ?? 0;
 
 if (!$output_id) {
-    setFlashMessage('Invalid output ID', 'danger');
-    redirect('outputs.php');
+    $_SESSION['error'] = 'Invalid output ID';
+    header("Location: outputs.php");
+    exit();
 }
 
 // Get output details
@@ -85,8 +63,9 @@ $stmt->execute([':output_id' => $output_id]);
 $output = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (!$output) {
-    setFlashMessage('Output record not found', 'danger');
-    redirect('outputs.php');
+    $_SESSION['error'] = 'Output record not found';
+    header("Location: outputs.php");
+    exit();
 }
 
 // Calculate metrics
