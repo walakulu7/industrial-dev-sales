@@ -26,7 +26,7 @@ const SalesHistory = () => {
     }, []);
 
     // Filter Logic
-    const filteredInvoices = invoices.filter(inv => 
+    const filteredInvoices = invoices.filter(inv =>
         inv.invoice_number.toLowerCase().includes(searchTerm.toLowerCase()) ||
         inv.customer_name.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -38,8 +38,8 @@ const SalesHistory = () => {
                 <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
                     <FaFileInvoiceDollar className="text-blue-600" /> Sales & Invoices
                 </h1>
-                <Link 
-                    to="/sales/new" 
+                <Link
+                    to="/sales/new"
                     className="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700 flex items-center transition"
                 >
                     <FaPlus className="mr-2" /> New Invoice
@@ -50,9 +50,9 @@ const SalesHistory = () => {
             <div className="bg-white p-4 rounded-lg shadow mb-6 border border-gray-200 flex gap-4">
                 <div className="flex-1 relative">
                     <FaSearch className="absolute left-3 top-3 text-gray-400" />
-                    <input 
-                        type="text" 
-                        placeholder="Search Invoice # or Customer Name..." 
+                    <input
+                        type="text"
+                        placeholder="Search Invoice # or Customer Name..."
                         className="w-full pl-10 pr-4 py-2 border rounded focus:outline-blue-500"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
@@ -99,9 +99,9 @@ const SalesHistory = () => {
                                         </span>
                                     </td>
                                     <td className="p-4 text-center">
-                                        <button 
+                                        <button
                                             onClick={() => navigate(`/sales/invoice/${inv.invoice_id}`)}
-                                            className="bg-blue-100 text-blue-600 p-2 rounded hover:bg-blue-200 transition" 
+                                            className="bg-blue-100 text-blue-600 p-2 rounded hover:bg-blue-200 transition"
                                             title="View Invoice"
                                         >
                                             <FaEye />
@@ -114,6 +114,9 @@ const SalesHistory = () => {
                         )}
                     </tbody>
                 </table>
+            </div>
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
             </div>
         </div>
     );
