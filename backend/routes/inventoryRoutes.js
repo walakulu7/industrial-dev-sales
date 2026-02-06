@@ -16,5 +16,6 @@ router.post("/adjust", protect, inventoryController.adjustStock); // Add/Remove 
 router.get("/warehouses", protect, inventoryController.getWarehouses); // For Dropdowns
 router.post("/transfer", protect, inventoryController.transferStock);
 router.get("/history", protect, inventoryController.getStockHistory);
+router.get('/finished-goods', protect, inventoryController.getFinishedGoods);
 
 module.exports = router;
