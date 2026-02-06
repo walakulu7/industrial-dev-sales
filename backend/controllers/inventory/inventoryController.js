@@ -160,3 +160,32 @@ exports.getStockHistory = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// 6. Get Finished Goods Specific Stock (With Prices)
+exports.getFinishedGoods = async (req, res) => {
+  try {
+    const query = `
+            SELECT 
+                i.inventory_id, 
+                p.product_name, 
+                p.product_code, 
+                p.standard_price AS unit_price, 
+                i.quantity_on_hand, 
+                w.warehouse_name, 
+                b.branch_name, 
+                b.branch_id
+            FROM inventory i
+            JOIN products p ON i.product_id = p.product_id
+            JOIN warehouses w ON i.warehouse_id = w.warehouse_id
+            JOIN branches b ON w.branch_id = b.branch_id
+            JOIN product_categories c ON p.category_id = c.category_id
+            WHERE c.category_type = 'finished_product'
+            ORDER BY p.product_name ASC
+        `;
+    const [rows] = await db.execute(query);
+    res.json(rows);
+  } catch (error) {
+    console.error("Error fetching finished goods:", error);
+    res.status(500).json({ error: error.message });
+  }
+};
