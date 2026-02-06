@@ -108,10 +108,10 @@ const Branches = () => {
                                 {branch.branch_code}
                             </div>
                         </div>
-                        
+
                         <div className="text-sm text-gray-600 space-y-2 mb-4">
                             <div className="flex items-center gap-2">
-                                <FaBuilding className="text-gray-400" /> 
+                                <FaBuilding className="text-gray-400" />
                                 <span className="capitalize">{branch.branch_type.replace('_', ' ')}</span>
                             </div>
                             <div className="flex items-center gap-2">
@@ -140,19 +140,19 @@ const Branches = () => {
                             <h3 className="font-bold text-lg text-gray-800">{isEdit ? "Edit Branch" : "Add New Branch"}</h3>
                             <button onClick={() => setShowModal(false)} className="text-gray-500 hover:text-red-500 text-xl">&times;</button>
                         </div>
-                        
+
                         <form onSubmit={handleSubmit} className="p-6 space-y-4">
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
                                     <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Branch Code</label>
                                     <input type="text" required className="w-full border p-2 rounded" placeholder="e.g. SC-001"
-                                        value={formData.branch_code} onChange={e => setFormData({...formData, branch_code: e.target.value})} 
+                                        value={formData.branch_code} onChange={e => setFormData({ ...formData, branch_code: e.target.value })}
                                         disabled={isEdit} />
                                 </div>
                                 <div>
                                     <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Type</label>
                                     <select className="w-full border p-2 rounded"
-                                        value={formData.branch_type} onChange={e => setFormData({...formData, branch_type: e.target.value})}>
+                                        value={formData.branch_type} onChange={e => setFormData({ ...formData, branch_type: e.target.value })}>
                                         <option value="main_office">Main Office</option>
                                         <option value="sub_office">Sub Office</option>
                                         <option value="sales_center">Sales Center</option>
@@ -165,32 +165,32 @@ const Branches = () => {
                             <div>
                                 <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Branch Name</label>
                                 <input type="text" required className="w-full border p-2 rounded"
-                                    value={formData.branch_name} onChange={e => setFormData({...formData, branch_name: e.target.value})} />
+                                    value={formData.branch_name} onChange={e => setFormData({ ...formData, branch_name: e.target.value })} />
                             </div>
 
                             <div>
                                 <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Location / City</label>
                                 <input type="text" required className="w-full border p-2 rounded"
-                                    value={formData.location} onChange={e => setFormData({...formData, location: e.target.value})} />
+                                    value={formData.location} onChange={e => setFormData({ ...formData, location: e.target.value })} />
                             </div>
 
                             <div>
                                 <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Contact Phone</label>
                                 <input type="text" className="w-full border p-2 rounded"
-                                    value={formData.contact_phone} onChange={e => setFormData({...formData, contact_phone: e.target.value})} />
+                                    value={formData.contact_phone} onChange={e => setFormData({ ...formData, contact_phone: e.target.value })} />
                             </div>
 
                             <div>
                                 <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Address</label>
                                 <textarea rows="2" className="w-full border p-2 rounded"
-                                    value={formData.address} onChange={e => setFormData({...formData, address: e.target.value})}></textarea>
+                                    value={formData.address} onChange={e => setFormData({ ...formData, address: e.target.value })}></textarea>
                             </div>
 
                             {isEdit && (
                                 <div>
                                     <label className="block text-xs font-bold text-gray-500 uppercase mb-1">Status</label>
                                     <select className="w-full border p-2 rounded"
-                                        value={formData.status} onChange={e => setFormData({...formData, status: e.target.value})}>
+                                        value={formData.status} onChange={e => setFormData({ ...formData, status: e.target.value })}>
                                         <option value="active">Active</option>
                                         <option value="inactive">Inactive</option>
                                     </select>
@@ -205,6 +205,9 @@ const Branches = () => {
                     </div>
                 </div>
             )}
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
+            </div>
         </div>
     );
 };
