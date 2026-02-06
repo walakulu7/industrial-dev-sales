@@ -472,3 +472,14 @@ CREATE TABLE credit_payments (
     FOREIGN KEY (credit_id) REFERENCES credit_sales(credit_id) ON DELETE CASCADE,
     FOREIGN KEY (created_by) REFERENCES users(user_id)
 );
+
+CREATE TABLE IF NOT EXISTS fixed_assets (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    purchase_date DATE NOT NULL,
+    value DECIMAL(15,2) NOT NULL,
+    depreciation_rate DECIMAL(5,2) DEFAULT 0,
+    current_value DECIMAL(15,2) NOT NULL,
+    status VARCHAR(50) DEFAULT 'Active',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
