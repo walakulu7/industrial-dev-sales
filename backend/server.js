@@ -6,6 +6,7 @@ const db = require("./config/db.config");
 const financeRoutes = require("./routes/financeRoutes");
 const reportRoutes = require("./routes/reportRoutes");
 const branchRoutes = require("./routes/branchRoutes");
+const assetRoutes = require("./routes/assetRoutes");
 
 // 1. Configure Environment
 dotenv.config();
@@ -49,6 +50,7 @@ app.use("/api/production", productionRoutes); // <--- Added correctly here
 app.use("/api/finance", financeRoutes);
 app.use("/api/reports", reportRoutes);
 app.use("/api/branches", branchRoutes);
+app.use("/api/assets", assetRoutes);
 
 // 8. Global Error Handler
 app.use((err, req, res, next) => {
