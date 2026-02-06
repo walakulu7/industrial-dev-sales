@@ -7,7 +7,7 @@ import { FaChartPie, FaPlusCircle, FaMoneyBillWave, FaArrowDown, FaArrowUp } fro
 const AccountingDashboard = () => {
     const { user } = useContext(AuthContext);
     const [activeTab, setActiveTab] = useState("overview"); // 'overview' or 'expenses'
-    
+
     // Stats State
     const [stats, setStats] = useState({ revenue: 0, expenses: 0, profit: 0 });
     const [expensesList, setExpensesList] = useState([]);
@@ -33,7 +33,7 @@ const AccountingDashboard = () => {
             ]);
             setStats(statsRes.data);
             setExpensesList(expRes.data);
-        } catch (err) { console.error(err); } 
+        } catch (err) { console.error(err); }
         finally { setLoading(false); }
     };
 
@@ -147,18 +147,18 @@ const AccountingDashboard = () => {
                     <h2 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
                         <FaPlusCircle /> Record Operating Expense
                     </h2>
-                    
+
                     <form onSubmit={handleExpenseSubmit} className="space-y-6">
                         <div className="grid grid-cols-2 gap-6">
                             <div>
                                 <label className="block text-sm font-bold text-gray-600 mb-2">Date</label>
                                 <input type="date" required className="w-full border p-3 rounded"
-                                    value={expenseForm.date} onChange={e => setExpenseForm({...expenseForm, date: e.target.value})} />
+                                    value={expenseForm.date} onChange={e => setExpenseForm({ ...expenseForm, date: e.target.value })} />
                             </div>
                             <div>
                                 <label className="block text-sm font-bold text-gray-600 mb-2">Category</label>
                                 <select className="w-full border p-3 rounded"
-                                    value={expenseForm.category} onChange={e => setExpenseForm({...expenseForm, category: e.target.value})}>
+                                    value={expenseForm.category} onChange={e => setExpenseForm({ ...expenseForm, category: e.target.value })}>
                                     {categories.map(c => <option key={c} value={c}>{c}</option>)}
                                 </select>
                             </div>
@@ -167,13 +167,13 @@ const AccountingDashboard = () => {
                         <div>
                             <label className="block text-sm font-bold text-gray-600 mb-2">Amount (LKR)</label>
                             <input type="number" step="0.01" required className="w-full border p-3 rounded font-bold text-lg" placeholder="0.00"
-                                value={expenseForm.amount} onChange={e => setExpenseForm({...expenseForm, amount: e.target.value})} />
+                                value={expenseForm.amount} onChange={e => setExpenseForm({ ...expenseForm, amount: e.target.value })} />
                         </div>
 
                         <div>
                             <label className="block text-sm font-bold text-gray-600 mb-2">Description</label>
                             <textarea rows="3" className="w-full border p-3 rounded" placeholder="Details about the expense..."
-                                value={expenseForm.description} onChange={e => setExpenseForm({...expenseForm, description: e.target.value})}></textarea>
+                                value={expenseForm.description} onChange={e => setExpenseForm({ ...expenseForm, description: e.target.value })}></textarea>
                         </div>
 
                         <button type="submit" className="w-full bg-red-600 text-white py-3 rounded font-bold hover:bg-red-700 transition">
@@ -182,6 +182,9 @@ const AccountingDashboard = () => {
                     </form>
                 </div>
             )}
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
+            </div>
         </div>
     );
 };
