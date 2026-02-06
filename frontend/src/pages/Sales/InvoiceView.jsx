@@ -44,7 +44,7 @@ const InvoiceView = () => {
 
             {/* Invoice Paper */}
             <div className="max-w-3xl mx-auto bg-white p-10 shadow-lg rounded-lg border border-gray-200 print:shadow-none print:border-none">
-                
+
                 {/* Header */}
                 <div className="flex justify-between items-start mb-8 border-b pb-6">
                     <div>
@@ -127,6 +127,9 @@ const InvoiceView = () => {
                     <p className="mb-2">Thank you for your business!</p>
                     <p className="text-xs">Issued by: {header.biller_name}</p>
                 </div>
+            </div>
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
             </div>
         </div>
     );
