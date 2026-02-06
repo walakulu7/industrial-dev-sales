@@ -211,6 +211,9 @@ const ManageProduction = () => {
                     </table>
                 </div>
             )}
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
+            </div>
         </div>
     );
 };
