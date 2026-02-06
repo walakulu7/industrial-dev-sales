@@ -12,7 +12,7 @@ const ProductMaster = () => {
     const [formData, setFormData] = useState({
         id: null,
         name: "",
-        type: "Yarn", 
+        type: "Yarn",
         unit: "KG",
         cost_price: 0,
         selling_price: 0
@@ -142,14 +142,14 @@ const ProductMaster = () => {
                         <h2 className="text-xl font-bold mb-4">{isEdit ? "Edit Product" : "New Product"}</h2>
                         <form onSubmit={handleSubmit} className="space-y-3">
                             <input type="text" placeholder="Product Name" className="w-full border p-2 rounded" required
-                                value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} />
-                            
+                                value={formData.name} onChange={e => setFormData({ ...formData, name: e.target.value })} />
+
                             <div className="grid grid-cols-2 gap-3">
-                                <select className="border p-2 rounded" value={formData.type} onChange={e => setFormData({...formData, type: e.target.value})}>
+                                <select className="border p-2 rounded" value={formData.type} onChange={e => setFormData({ ...formData, type: e.target.value })}>
                                     <option value="Yarn">Yarn</option>
                                     <option value="Finished">Finished Good</option>
                                 </select>
-                                <select className="border p-2 rounded" value={formData.unit} onChange={e => setFormData({...formData, unit: e.target.value})}>
+                                <select className="border p-2 rounded" value={formData.unit} onChange={e => setFormData({ ...formData, unit: e.target.value })}>
                                     <option value="KG">KG</option>
                                     <option value="MTR">Meters</option>
                                     <option value="PCS">Pieces</option>
@@ -158,9 +158,9 @@ const ProductMaster = () => {
 
                             <div className="grid grid-cols-2 gap-3">
                                 <input type="number" placeholder="Cost" className="border p-2 rounded"
-                                    value={formData.cost_price} onChange={e => setFormData({...formData, cost_price: e.target.value})} />
+                                    value={formData.cost_price} onChange={e => setFormData({ ...formData, cost_price: e.target.value })} />
                                 <input type="number" placeholder="Price" className="border p-2 rounded"
-                                    value={formData.selling_price} onChange={e => setFormData({...formData, selling_price: e.target.value})} />
+                                    value={formData.selling_price} onChange={e => setFormData({ ...formData, selling_price: e.target.value })} />
                             </div>
 
                             <div className="flex justify-end gap-2 mt-4">
@@ -171,6 +171,9 @@ const ProductMaster = () => {
                     </div>
                 </div>
             )}
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
+            </div>
         </div>
     );
 };
