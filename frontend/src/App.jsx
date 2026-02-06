@@ -1,49 +1,48 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 import { useContext } from "react";
-import UserManagement from "./pages/Admin/UserManagement";
-import Customers from "./pages/CRM/Customers";
-import ProductMaster from "./pages/Inventory/ProductMaster";
-import Branches from "./pages/Admin/Branches";
-import ReportsHub from "./pages/Accounting/ReportsHub";
-import Profile from "./pages/Auth/Profile";
-import InvoiceView from "./pages/Sales/InvoiceView";
-import SalesHistory from "./pages/Sales/SalesHistory";
-
 
 // Layouts
 import MainLayout from "./components/layout/MainLayout";
 
-// Pages - Auth
+// Auth Pages
 import Login from "./pages/Auth/Login";
-import Unauthorized from "./pages/Auth/Unauthorized";
+import Profile from "./pages/Auth/Profile";
 
-// Pages - Dashboard
-import Dashboard from "./pages/Dashboard/Dashboard";
+// Dashboard
+import Dashboard from "./pages/Dashboard/AdminDashboard";
 
-// Pages - Inventory
-import YarnStock from "./pages/Inventory/YarnStock";
-import FinishedGoods from "./pages/Inventory/FinishedGoods";
+// Inventory Pages
+import InventoryManager from "./pages/Inventory/YarnStock"; // Main Inventory (Stock/Transfers)
+import ProductMaster from "./pages/Inventory/ProductMaster"; // Item Registry
+import FinishedGoods from "./pages/Inventory/FinishedGoods"; // Finished Goods View
 
-// Pages - Sales
+// Sales Pages
 import NewInvoice from "./pages/Sales/NewInvoice";
+import SalesHistory from "./pages/Sales/SalesHistory";
+import InvoiceView from "./pages/Sales/InvoiceView";
 import CreditSales from "./pages/Sales/CreditSales";
 
-// Pages - Production
+// CRM
+import Customers from "./pages/CRM/Customers";
+
+// Production
 import ManageProduction from "./pages/Production/ManageProduction";
 import ProductionHistory from "./pages/Production/ProductionHistory";
+import ProductionOrders from "./pages/Production/ProductionOrders";
 
-// Pages - Accounting
-import ProfitLossReport from "./pages/Accounting/ProfitLossReport";
+// Accounting & Admin
+import AccountingDashboard from "./pages/Accounting/ProfitLossReport";
 import ExpenseEntry from "./pages/Accounting/ExpenseEntry";
-
-// Pages - Assets
+import ReportsHub from "./pages/Accounting/ReportsHub";
 import FixedAssetRegister from "./pages/Assets/FixedAssetRegister";
+import UserManagement from "./pages/Admin/UserManagement";
+import Branches from "./pages/Admin/Branches";
 
-// Protected Route Component
+// Protected Route Wrapper
 const ProtectedRoute = ({ children }) => {
     const { user, loading } = useContext(AuthContext);
-    if (loading) return <div className="p-10">Loading...</div>;
+    if (loading) return <div className="p-10 text-center">Loading...</div>;
     return user ? children : <Navigate to="/login" />;
 };
 
@@ -52,54 +51,47 @@ function App() {
         <BrowserRouter>
             <AuthProvider>
                 <Routes>
+                    {/* Public Routes */}
                     <Route path="/login" element={<Login />} />
-                    <Route path="/unauthorized" element={<Unauthorized />} />
 
-                    {/* Main App Layout */}
+                    {/* Protected Routes (Wrapped in MainLayout) */}
                     <Route path="/" element={
                         <ProtectedRoute>
                             <MainLayout />
                         </ProtectedRoute>
                     }>
-                        {/* Admin Routes */}
-                        <Route path="admin/users" element={<UserManagement />} />
-                        <Route path="branches" element={<Branches />} />
-                        <Route path="reports" element={<ReportsHub />} />
                         {/* Dashboard */}
                         <Route index element={<Dashboard />} />
+                        <Route path="profile" element={<Profile />} />
 
-                        {/* Inventory */}
-                        <Route path="inventory" element={<YarnStock />} />
+                        {/* Inventory Module */}
+                        <Route path="inventory" element={<InventoryManager />} />
+                        <Route path="inventory/items" element={<ProductMaster />} />   {/* <--- FIXED THIS ROUTE */}
                         <Route path="inventory/products" element={<FinishedGoods />} />
-                        <Route path="products" element={<ProductMaster />} />
 
-                        {/* Sales */}
+                        {/* Sales Module */}
+                        <Route path="sales" element={<SalesHistory />} />
                         <Route path="sales/new" element={<NewInvoice />} />
+                        <Route path="sales/invoice/:id" element={<InvoiceView />} />
                         <Route path="sales/credit" element={<CreditSales />} />
-                        <Route path="/sales" element={<SalesHistory />} />
-                        <Route path="/sales/invoice/:id" element={<InvoiceView />} />
 
-                        {/* Production */}
-                        <Route path="production" element={<ManageProduction />} />
-                        <Route path="production/history" element={<ProductionHistory />} />
-
-                        {/* Finance/Accounting */}
-                        <Route path="finance" element={<ProfitLossReport />} />
-                        <Route path="finance/pnl" element={<ProfitLossReport />} />
-                        <Route path="finance/transaction" element={<ExpenseEntry />} />
-
-                        {/* Assets */}
-                        <Route path="assets" element={<FixedAssetRegister />} />
-
-                        {/* CRM */}
+                        {/* CRM Module */}
                         <Route path="customers" element={<Customers />} />
 
-                        {/* Profile Route */}
-                        <Route path="/profile" element={<Profile />} />
+                        {/* Production Module */}
+                        <Route path="production" element={<ManageProduction />} />
+                        <Route path="production/history" element={<ProductionHistory />} />
+                        <Route path="production/orders" element={<ProductionOrders />} />
 
-                        {/* Invoice View Route */}
-                        <Route path="/sales/new" element={<NewInvoice />} />
-                        <Route path="/sales/invoice/:id" element={<InvoiceView />} />
+                        {/* Finance & Assets */}
+                        <Route path="finance" element={<AccountingDashboard />} />
+                        <Route path="finance/transaction" element={<ExpenseEntry />} />
+                        <Route path="assets" element={<FixedAssetRegister />} />
+                        
+                        {/* Administration */}
+                        <Route path="reports" element={<ReportsHub />} />
+                        <Route path="admin/users" element={<UserManagement />} />
+                        <Route path="branches" element={<Branches />} />
 
                     </Route>
                 </Routes>
