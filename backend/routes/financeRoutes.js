@@ -12,6 +12,7 @@ router.get('/credits', protect, financeController.getCreditList);
 
 // Record a payment
 router.post('/payment', protect, financeController.recordPayment);
+router.get('/payments', protect, financeController.getAllPayments);
 
 // Get payment history for a specific credit record
 router.get('/payment-history/:id', protect, financeController.getPaymentHistory);
