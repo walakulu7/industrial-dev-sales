@@ -18,12 +18,12 @@ const ExpenseEntry = () => {
     });
 
     const categories = [
-        "Utilities (Electric/Water)", 
-        "Rent", 
-        "Salaries & Wages", 
-        "Maintenance", 
-        "Transport / Fuel", 
-        "Office Supplies", 
+        "Utilities (Electric/Water)",
+        "Rent",
+        "Salaries & Wages",
+        "Maintenance",
+        "Transport / Fuel",
+        "Office Supplies",
         "Raw Material Purchase",
         "Marketing",
         "Other"
@@ -37,7 +37,7 @@ const ExpenseEntry = () => {
             // We map 'type' to the backend logic. 
             // Currently, our backend 'addExpense' handles expenses.
             // If you expand to 'Manual Income', you'd need a different endpoint.
-            
+
             await API.post('/finance/expenses', {
                 date: formData.date,
                 category: formData.category,
@@ -58,7 +58,7 @@ const ExpenseEntry = () => {
 
     return (
         <div className="max-w-2xl mx-auto animate-fade-in-up">
-            
+
             {/* Header with Back Button */}
             <div className="mb-6 flex items-center justify-between">
                 <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
@@ -72,17 +72,17 @@ const ExpenseEntry = () => {
             {/* Form Card */}
             <div className="bg-white p-8 rounded-lg shadow-md border border-gray-200">
                 <h2 className="text-lg font-bold text-gray-700 mb-6 border-b pb-2">Record New Transaction</h2>
-                
+
                 <form onSubmit={handleSubmit} className="space-y-5">
-                    
+
                     <div className="grid grid-cols-2 gap-6">
                         {/* Transaction Type */}
                         <div>
                             <label className="block text-sm font-bold text-gray-600 mb-2">Transaction Type</label>
-                            <select 
+                            <select
                                 className="w-full border p-3 rounded focus:ring-2 focus:ring-indigo-500 outline-none bg-gray-50"
                                 value={formData.type}
-                                onChange={e => setFormData({...formData, type: e.target.value})}
+                                onChange={e => setFormData({ ...formData, type: e.target.value })}
                             >
                                 <option value="Expense">Expense (Money Out)</option>
                                 {/* Future: <option value="Income">Income (Money In)</option> */}
@@ -92,10 +92,10 @@ const ExpenseEntry = () => {
                         {/* Category */}
                         <div>
                             <label className="block text-sm font-bold text-gray-600 mb-2">Category</label>
-                            <select 
+                            <select
                                 className="w-full border p-3 rounded focus:ring-2 focus:ring-indigo-500 outline-none"
                                 value={formData.category}
-                                onChange={e => setFormData({...formData, category: e.target.value})}
+                                onChange={e => setFormData({ ...formData, category: e.target.value })}
                             >
                                 {categories.map((cat, index) => (
                                     <option key={index} value={cat}>{cat}</option>
@@ -107,41 +107,41 @@ const ExpenseEntry = () => {
                     {/* Amount */}
                     <div>
                         <label className="block text-sm font-bold text-gray-600 mb-2">Amount (LKR)</label>
-                        <input 
-                            type="number" step="0.01" required 
+                        <input
+                            type="number" step="0.01" required
                             className="w-full border p-3 rounded focus:ring-2 focus:ring-indigo-500 outline-none text-lg font-semibold"
                             placeholder="0.00"
                             value={formData.amount}
-                            onChange={e => setFormData({...formData, amount: e.target.value})}
+                            onChange={e => setFormData({ ...formData, amount: e.target.value })}
                         />
                     </div>
 
                     {/* Description */}
                     <div>
                         <label className="block text-sm font-bold text-gray-600 mb-2">Description / Notes</label>
-                        <textarea 
-                            rows="3" 
+                        <textarea
+                            rows="3"
                             className="w-full border p-3 rounded focus:ring-2 focus:ring-indigo-500 outline-none"
                             placeholder="e.g., Paid electricity bill for January"
                             value={formData.description}
-                            onChange={e => setFormData({...formData, description: e.target.value})}
+                            onChange={e => setFormData({ ...formData, description: e.target.value })}
                         ></textarea>
                     </div>
 
                     {/* Date */}
                     <div>
                         <label className="block text-sm font-bold text-gray-600 mb-2">Date</label>
-                        <input 
-                            type="date" required 
+                        <input
+                            type="date" required
                             className="w-full border p-3 rounded focus:ring-2 focus:ring-indigo-500 outline-none"
                             value={formData.date}
-                            onChange={e => setFormData({...formData, date: e.target.value})}
+                            onChange={e => setFormData({ ...formData, date: e.target.value })}
                         />
                     </div>
 
                     {/* Submit Button */}
-                    <button 
-                        type="submit" 
+                    <button
+                        type="submit"
                         disabled={loading}
                         className="w-full bg-slate-900 text-white py-3 rounded-lg font-bold hover:bg-slate-800 transition flex justify-center items-center gap-2 mt-4"
                     >
@@ -149,6 +149,9 @@ const ExpenseEntry = () => {
                     </button>
 
                 </form>
+            </div>
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
             </div>
         </div>
     );
