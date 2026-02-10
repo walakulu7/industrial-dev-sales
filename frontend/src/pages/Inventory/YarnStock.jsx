@@ -1,9 +1,11 @@
 import { useEffect, useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { AuthContext } from "../../context/AuthContext";
-import { FaWarehouse, FaBoxOpen, FaExchangeAlt, FaHistory, FaSearch, FaPlus } from "react-icons/fa";
+import { FaWarehouse, FaBoxOpen, FaExchangeAlt, FaHistory, FaSearch, FaPlus, FaArrowLeft } from "react-icons/fa";
 
 const InventoryManager = () => {
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
     const [activeTab, setActiveTab] = useState("overview"); // 'overview', 'transfer', 'history'
 
@@ -93,6 +95,13 @@ const InventoryManager = () => {
 
     return (
         <div className="animate-fade-in-up">
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
 
             {/* --- Header & Adjust Button --- */}
             <div className="flex justify-between items-center mb-6">
