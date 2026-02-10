@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
-import { FaEdit, FaTrash, FaPlus, FaBox, FaBarcode } from "react-icons/fa";
+import { FaEdit, FaTrash, FaPlus, FaBox, FaBarcode, FaArrowLeft } from "react-icons/fa";
 
 const ProductMaster = () => {
+    const navigate = useNavigate();
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(true);
     const [showModal, setShowModal] = useState(false);
@@ -80,6 +82,15 @@ const ProductMaster = () => {
 
     return (
         <div className="animate-fade-in-up">
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
+            
+            {/* Header */}
             <div className="flex justify-between items-center mb-6">
                 <div>
                     <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
