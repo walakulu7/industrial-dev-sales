@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { formatCurrency } from "../../utils/currencyFormat";
-import { FaBoxOpen, FaStore, FaSearch } from "react-icons/fa";
+import { FaBoxOpen, FaStore, FaSearch, FaArrowLeft } from "react-icons/fa";
 
 const FinishedGoods = () => {
+    const navigate = useNavigate();
     const [stock, setStock] = useState([]);
     const [loading, setLoading] = useState(true);
     const [branches, setBranches] = useState([]);
@@ -41,6 +43,13 @@ const FinishedGoods = () => {
 
     return (
         <div className="animate-fade-in-up">
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
 
             {/* Header & Controls */}
             <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
