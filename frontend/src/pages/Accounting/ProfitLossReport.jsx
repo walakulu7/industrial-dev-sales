@@ -1,10 +1,12 @@
 import { useEffect, useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { AuthContext } from "../../context/AuthContext";
 import { formatCurrency } from "../../utils/currencyFormat";
-import { FaChartPie, FaPlusCircle, FaMoneyBillWave, FaArrowDown, FaArrowUp } from "react-icons/fa";
+import { FaChartPie, FaPlusCircle, FaMoneyBillWave, FaArrowDown, FaArrowUp, FaArrowLeft } from "react-icons/fa";
 
 const AccountingDashboard = () => {
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
     const [activeTab, setActiveTab] = useState("overview"); // 'overview' or 'expenses'
 
@@ -55,6 +57,12 @@ const AccountingDashboard = () => {
 
     return (
         <div className="animate-fade-in-up">
+            {/* Header with Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
             <h1 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <FaChartPie className="text-indigo-600" /> Financial Accounting
             </h1>
