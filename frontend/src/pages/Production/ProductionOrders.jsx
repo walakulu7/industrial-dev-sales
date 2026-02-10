@@ -1,9 +1,11 @@
 import { useEffect, useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { AuthContext } from "../../context/AuthContext";
-import { FaClipboardList, FaPlus, FaTasks, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
+import { FaClipboardList, FaPlus, FaTasks, FaCheckCircle, FaTimesCircle, FaArrowLeft } from "react-icons/fa";
 
 const ProductionOrders = () => {
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
     const [orders, setOrders] = useState([]);
     const [centers, setCenters] = useState([]);
@@ -69,8 +71,15 @@ const ProductionOrders = () => {
     return (
         <div className="animate-fade-in-up">
 
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
+
             {/* Header */}
-            <div className="flex justify-between items-center mb-6">
+            <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
                     <FaClipboardList className="text-indigo-600" /> Production Orders
                 </h1>
@@ -188,6 +197,9 @@ const ProductionOrders = () => {
                     </div>
                 </div>
             )}
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
+            </div>
         </div>
     );
 };
