@@ -1,12 +1,14 @@
 import { useState, useEffect, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { formatCurrency } from "../../utils/currencyFormat";
 import {
     FaUsers, FaMoneyBillWave, FaExclamationCircle, FaSearch,
-    FaPlus, FaEdit, FaPhone, FaEnvelope, FaEye
+    FaPlus, FaEdit, FaPhone, FaEnvelope, FaEye, FaArrowLeft
 } from "react-icons/fa";
 
 const Customers = () => {
+    const navigate = useNavigate();
     const [customers, setCustomers] = useState([]);
     const [stats, setStats] = useState({ total: 0, sales: 0, outstanding: 0 });
     const [loading, setLoading] = useState(false);
@@ -128,6 +130,13 @@ const Customers = () => {
 
     return (
         <div className="animate-fade-in-up">
+            
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
 
             {/* --- Header Section --- */}
             <div className="flex justify-between items-center mb-6">
