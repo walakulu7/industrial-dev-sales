@@ -7,27 +7,33 @@ const MainLayout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     return (
-        <div className="flex h-screen bg-slate-50 overflow-hidden">
-            {/* Sidebar (Mobile: Toggled, Desktop: Fixed) */}
-            <Sidebar isOpen={isSidebarOpen} closeSidebar={() => setIsSidebarOpen(false)} />
+        <div className="flex h-screen bg-slate-50 overflow-hidden font-[Inter]">
+            
+            {/* 1. Sidebar (Fixed Width: w-72) */}
+            <Sidebar 
+                isOpen={isSidebarOpen} 
+                closeSidebar={() => setIsSidebarOpen(false)} 
+            />
 
-            {/* Overlay for Mobile (closes sidebar when clicked) */}
+            {/* 2. Mobile Overlay (Darkens background when menu is open on phone) */}
             {isSidebarOpen && (
                 <div 
-                    className="fixed inset-0 z-20 bg-black/50 md:hidden"
+                    className="fixed inset-0 z-20 bg-black/50 md:hidden backdrop-blur-sm transition-opacity"
                     onClick={() => setIsSidebarOpen(false)}
                 ></div>
             )}
 
-            {/* Main Content Area */}
-            <div className="flex-1 flex flex-col md:ml-64 transition-all duration-300">
-                {/* Navbar (Pass toggle function) */}
+            {/* 3. Main Content Wrapper */}
+            {/* md:ml-72 matches the Sidebar's w-72 exactly */}
+            <div className="flex-1 flex flex-col md:ml-72 transition-all duration-300 h-full relative">
+                
+                {/* Navbar (Sticky Top) */}
                 <Navbar toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
 
-                {/* Page Content (Scrollable) */}
-                <div className="flex-1 overflow-auto p-4 md:p-8">
+                {/* Page Content (Scrollable Area) */}
+                <main className="flex-1 overflow-auto p-4 md:p-8 bg-slate-50">
                     <Outlet /> 
-                </div>
+                </main>
             </div>
         </div>
     );
