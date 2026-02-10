@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { formatCurrency } from "../../utils/currencyFormat";
-import { FaChartBar, FaFileDownload, FaSearch, FaCalendarAlt, FaBox, FaIndustry, FaShoppingCart } from "react-icons/fa";
+import { FaChartBar, FaFileDownload, FaSearch, FaCalendarAlt, FaBox, FaIndustry, FaShoppingCart, FaArrowLeft } from "react-icons/fa";
 
 const ReportsHub = () => {
+    const navigate = useNavigate();
     const [reportType, setReportType] = useState("sales"); // sales, inventory, production
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -46,6 +48,13 @@ const ReportsHub = () => {
 
     return (
         <div className="animate-fade-in-up">
+            
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
             <h1 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <FaChartBar className="text-indigo-600" /> Reports Hub
             </h1>
