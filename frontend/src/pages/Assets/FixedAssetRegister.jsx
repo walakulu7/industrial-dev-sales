@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { formatCurrency } from "../../utils/currencyFormat";
-import { FaBuilding, FaPlus, FaTrash, FaCalculator } from "react-icons/fa";
+import { FaBuilding, FaPlus, FaTrash, FaCalculator, FaArrowLeft } from "react-icons/fa";
 
 const FixedAssetRegister = () => {
+    const navigate = useNavigate();
     const [assets, setAssets] = useState([]);
     const [loading, setLoading] = useState(true);
     const [showForm, setShowForm] = useState(false);
@@ -59,6 +61,12 @@ const FixedAssetRegister = () => {
 
     return (
         <div className="animate-fade-in-up">
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
 
             {/* Header */}
             <div className="flex justify-between items-center mb-6">
