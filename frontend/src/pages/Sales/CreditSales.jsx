@@ -1,13 +1,15 @@
 import { useEffect, useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { AuthContext } from "../../context/AuthContext";
 import { formatCurrency } from "../../utils/currencyFormat";
 import {
     FaMoneyBillWave, FaSearch, FaExclamationTriangle,
-    FaHistory, FaPlusCircle, FaTimes, FaClipboardList
+    FaHistory, FaPlusCircle, FaTimes, FaClipboardList, FaArrowLeft
 } from "react-icons/fa";
 
 const CreditSales = () => {
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
 
     const [credits, setCredits] = useState([]);
@@ -116,6 +118,13 @@ const CreditSales = () => {
 
     return (
         <div className="animate-fade-in-up">
+            
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
 
             {/* Header */}
             <div className="flex justify-between items-center mb-6">
