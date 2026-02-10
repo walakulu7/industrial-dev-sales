@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { ROLES } from "../../utils/roleConstants";
-import { FaTrash, FaUserPlus, FaBuilding, FaKey } from "react-icons/fa";
+import { FaTrash, FaUserPlus, FaBuilding, FaKey, FaArrowLeft } from "react-icons/fa";
 
 const UserManagement = () => {
+    const navigate = useNavigate();
     // --- State Management ---
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -89,6 +91,14 @@ const UserManagement = () => {
 
     return (
         <div className="animate-fade-in-up">
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
+            
             {/* --- Header Section --- */}
             <div className="flex justify-between items-center mb-6">
                 <h1 className="text-2xl font-bold text-slate-800">System Users</h1>
