@@ -1,10 +1,12 @@
 import { useEffect, useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { AuthContext } from "../../context/AuthContext";
 // FIX: Added FaBoxOpen to the imports below
-import { FaIndustry, FaArrowRight, FaHistory, FaPlusCircle, FaCogs, FaBoxOpen } from "react-icons/fa";
+import { FaIndustry, FaArrowRight, FaHistory, FaPlusCircle, FaCogs, FaBoxOpen, FaArrowLeft } from "react-icons/fa";
 
 const ManageProduction = () => {
+    const navigate = useNavigate();
     const { user } = useContext(AuthContext);
     const [activeTab, setActiveTab] = useState("new"); // 'new' or 'history'
 
@@ -66,6 +68,11 @@ const ManageProduction = () => {
 
     return (
         <div className="animate-fade-in-up">
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
             <h1 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
                 <FaIndustry className="text-indigo-600" /> Production Management
             </h1>
