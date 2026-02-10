@@ -7,11 +7,11 @@ import { FaCartPlus, FaTrash, FaCalculator, FaBox, FaArrowLeft } from "react-ico
 const NewInvoice = () => {
     const { user } = useContext(AuthContext);
     const navigate = useNavigate(); // Initialize navigation
-    
+
     // Data States
     const [products, setProducts] = useState([]);
     const [customers, setCustomers] = useState([]);
-    
+
     // Form States
     const [selectedCustomer, setSelectedCustomer] = useState("");
     const [paymentMethod, setPaymentMethod] = useState("cash");
@@ -43,8 +43,8 @@ const NewInvoice = () => {
 
         const existing = cart.find(item => item.id === currentItem.id);
         if (existing) {
-            setCart(cart.map(item => item.id === currentItem.id 
-                ? { ...item, quantity: parseFloat(item.quantity) + parseFloat(currentItem.quantity) } 
+            setCart(cart.map(item => item.id === currentItem.id
+                ? { ...item, quantity: parseFloat(item.quantity) + parseFloat(currentItem.quantity) }
                 : item
             ));
         } else {
@@ -85,20 +85,17 @@ const NewInvoice = () => {
 
     return (
         <div className="animate-fade-in-up flex flex-col h-full">
-            
-            {/* --- TOP HEADER: Back Button --- */}
-            <div className="mb-4">
-                <button 
-                    onClick={() => navigate('/sales')}
-                    className="flex items-center text-gray-600 hover:text-indigo-600 font-medium transition"
-                >
-                    <FaArrowLeft className="mr-2" /> Back to Sales & Invoices
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
                 </button>
             </div>
 
             {/* --- MAIN CONTENT: Columns --- */}
             <div className="flex flex-col md:flex-row gap-6 h-full pb-6">
-                
+
                 {/* --- LEFT: Invoice Creation Area --- */}
                 <div className="w-full md:w-3/4 bg-white rounded-lg shadow-md flex flex-col">
                     <div className="p-4 border-b border-gray-100 flex justify-between items-center bg-gray-50 rounded-t-lg">
@@ -112,16 +109,16 @@ const NewInvoice = () => {
                     <div className="p-4 bg-blue-50 grid grid-cols-12 gap-3 items-end">
                         <div className="col-span-6">
                             <label className="text-xs font-bold text-gray-500 uppercase">Product</label>
-                            <select 
+                            <select
                                 className="w-full p-2 border rounded focus:outline-blue-500"
                                 value={currentItem.id}
                                 onChange={(e) => {
                                     const prod = products.find(p => p.id == e.target.value);
-                                    if(prod) setCurrentItem({ 
-                                        id: prod.id, 
-                                        name: prod.name, 
-                                        price: prod.selling_price, 
-                                        quantity: 1 
+                                    if (prod) setCurrentItem({
+                                        id: prod.id,
+                                        name: prod.name,
+                                        price: prod.selling_price,
+                                        quantity: 1
                                     });
                                 }}
                             >
@@ -139,7 +136,7 @@ const NewInvoice = () => {
 
                         <div className="col-span-2">
                             <label className="text-xs font-bold text-gray-500 uppercase">Qty</label>
-                            <input 
+                            <input
                                 type="number" min="1"
                                 className="w-full p-2 border rounded focus:outline-blue-500"
                                 value={currentItem.quantity}
@@ -200,7 +197,7 @@ const NewInvoice = () => {
                         {/* Customer Select */}
                         <div>
                             <label className="block text-xs font-bold text-gray-500 uppercase mb-2">Customer</label>
-                            <select 
+                            <select
                                 className="w-full p-3 border rounded bg-gray-50 focus:outline-blue-500"
                                 value={selectedCustomer}
                                 onChange={(e) => setSelectedCustomer(e.target.value)}
@@ -216,25 +213,25 @@ const NewInvoice = () => {
                         <div>
                             <label className="block text-xs font-bold text-gray-500 uppercase mb-2">Payment Type</label>
                             <div className="grid grid-cols-2 gap-2">
-                                <button 
+                                <button
                                     onClick={() => setPaymentMethod('cash')}
-                                    className={`p-2 rounded text-sm font-bold border ${paymentMethod==='cash' ? 'bg-green-100 border-green-500 text-green-700' : 'border-gray-200 text-gray-500'}`}
+                                    className={`p-2 rounded text-sm font-bold border ${paymentMethod === 'cash' ? 'bg-green-100 border-green-500 text-green-700' : 'border-gray-200 text-gray-500'}`}
                                 >
                                     Cash
                                 </button>
-                                <button 
+                                <button
                                     onClick={() => setPaymentMethod('credit')}
-                                    className={`p-2 rounded text-sm font-bold border ${paymentMethod==='credit' ? 'bg-orange-100 border-orange-500 text-orange-700' : 'border-gray-200 text-gray-500'}`}
+                                    className={`p-2 rounded text-sm font-bold border ${paymentMethod === 'credit' ? 'bg-orange-100 border-orange-500 text-orange-700' : 'border-gray-200 text-gray-500'}`}
                                 >
                                     Credit
                                 </button>
                             </div>
                         </div>
 
-                         {/* Location */}
-                         <div>
+                        {/* Location */}
+                        <div>
                             <label className="block text-xs font-bold text-gray-500 uppercase mb-2">Billing Location</label>
-                            <select className="w-full p-2 border rounded bg-gray-50 text-sm" value={branchId} onChange={e=>setBranchId(e.target.value)}>
+                            <select className="w-full p-2 border rounded bg-gray-50 text-sm" value={branchId} onChange={e => setBranchId(e.target.value)}>
                                 <option value="1">Viskampiyasa Head Office</option>
                                 <option value="2">Polonnaruwa</option>
                             </select>
@@ -251,8 +248,8 @@ const NewInvoice = () => {
                             <span>Total</span>
                             <span>LKR {grandTotal.toFixed(2)}</span>
                         </div>
-                        
-                        <button 
+
+                        <button
                             onClick={handleCompleteSale}
                             className="w-full bg-slate-900 text-white py-3 rounded-lg font-bold hover:bg-slate-800 transition shadow-lg"
                         >
