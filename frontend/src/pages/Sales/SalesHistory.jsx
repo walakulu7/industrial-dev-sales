@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
 import { formatCurrency } from "../../utils/currencyFormat";
-import { FaFileInvoiceDollar, FaPlus, FaEye, FaSearch, FaFilter } from "react-icons/fa";
+import { FaFileInvoiceDollar, FaPlus, FaEye, FaSearch, FaFilter, FaArrowLeft } from "react-icons/fa";
 
 const SalesHistory = () => {
     const [invoices, setInvoices] = useState([]);
@@ -33,6 +33,14 @@ const SalesHistory = () => {
 
     return (
         <div className="animate-fade-in-up">
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
+
             {/* Header */}
             <div className="flex justify-between items-center mb-6">
                 <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
