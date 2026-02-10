@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../../api/axiosConfig";
-import { FaHistory, FaSearch, FaFileDownload, FaIndustry } from "react-icons/fa";
+import { FaHistory, FaSearch, FaFileDownload, FaIndustry, FaArrowLeft } from "react-icons/fa";
 
 const ProductionHistory = () => {
+    const navigate = useNavigate();
     const [history, setHistory] = useState([]);
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState("");
@@ -23,7 +25,7 @@ const ProductionHistory = () => {
     }, []);
 
     // Filter Data
-    const filteredHistory = history.filter(item => 
+    const filteredHistory = history.filter(item =>
         item.center_name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.input_name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.output_name?.toLowerCase().includes(searchTerm.toLowerCase())
@@ -44,19 +46,19 @@ const ProductionHistory = () => {
             const input = `"${log.input_name}"`;
             const output = `"${log.output_name}"`;
             const user = `"${log.username}"`;
-            
+
             return `${date},${center},${input},${log.input_qty},${output},${log.output_qty},${user}`;
         });
 
         // 3. Combine and Blob
         const csvContent = [headers, ...rows].join("\n");
         const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
-        
+
         // 4. Trigger Download
         const link = document.createElement("a");
         const url = URL.createObjectURL(blob);
         link.setAttribute("href", url);
-        link.setAttribute("download", `Production_Report_${new Date().toISOString().slice(0,10)}.csv`);
+        link.setAttribute("download", `Production_Report_${new Date().toISOString().slice(0, 10)}.csv`);
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -64,15 +66,22 @@ const ProductionHistory = () => {
 
     return (
         <div className="animate-fade-in-up">
-            
+
+            {/* Back Button */}
+            <div className="mb-6 flex items-center justify-between">
+                <button onClick={() => navigate(-1)} className="text-gray-500 hover:text-indigo-600 flex items-center gap-2 transition">
+                    <FaArrowLeft /> Back
+                </button>
+            </div>
+
             {/* Header */}
-            <div className="flex justify-between items-center mb-6">
+            <div className="mb-6 flex items-center justify-between">
                 <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
                     <FaHistory className="text-indigo-600" /> Production History
                 </h1>
-                
+
                 {/* Export Button with OnClick */}
-                <button 
+                <button
                     onClick={handleExport}
                     className="bg-white border border-gray-300 text-gray-700 px-4 py-2 rounded shadow-sm hover:bg-gray-50 flex items-center transition"
                 >
@@ -84,9 +93,9 @@ const ProductionHistory = () => {
             <div className="bg-white p-4 rounded-lg shadow mb-6 border border-gray-200">
                 <div className="relative">
                     <FaSearch className="absolute left-3 top-3 text-gray-400" />
-                    <input 
-                        type="text" 
-                        placeholder="Search by Center, Material or Product..." 
+                    <input
+                        type="text"
+                        placeholder="Search by Center, Material or Product..."
                         className="w-full pl-10 pr-4 py-2 border rounded focus:outline-indigo-500"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
@@ -116,7 +125,7 @@ const ProductionHistory = () => {
                                     <td className="p-4 whitespace-nowrap text-gray-600">
                                         {new Date(log.production_date).toLocaleDateString()}
                                     </td>
-                                    
+
                                     <td className="p-4">
                                         <div className="font-bold text-slate-700 flex items-center gap-2">
                                             <FaIndustry className="text-gray-400" />
@@ -164,6 +173,9 @@ const ProductionHistory = () => {
                         )}
                     </tbody>
                 </table>
+            </div>
+            <div className="text-center text-gray-400 text-sm mt-10">
+                &copy; 2026 Textile Management System. All rights reserved.
             </div>
         </div>
     );
