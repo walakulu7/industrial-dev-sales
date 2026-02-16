@@ -5,7 +5,9 @@ const db = require("../config/db.config");
 // 1. Get Credit List
 const getCreditList = async (req, res) => {
   try {
-    const query = `
+    const { startDate, endDate } = req.query;
+
+    let query = `
             SELECT cs.credit_id, cs.invoice_id, cs.total_amount, cs.paid_amount, 
                    (cs.total_amount - cs.paid_amount) AS balance_amount, 
                    cs.due_date, cs.status,
@@ -15,16 +17,28 @@ const getCreditList = async (req, res) => {
             JOIN customers c ON cs.customer_id = c.customer_id
             JOIN sales_invoices si ON cs.invoice_id = si.invoice_id
             WHERE cs.status != 'paid'
-            ORDER BY balance_amount DESC
         `;
-    const [credits] = await db.execute(query);
+
+    const params = [];
+
+    // Apply Date Filter (based on Invoice Date)
+    if (startDate && endDate) {
+      query += ` AND DATE(si.invoice_date) BETWEEN ? AND ?`;
+      params.push(startDate, endDate);
+    }
+
+    // FIX: Removed 'cs.' prefix from balance_amount
+    query += ` ORDER BY balance_amount DESC`;
+
+    const [credits] = await db.execute(query, params);
     res.json(credits);
   } catch (error) {
+    console.error("Error fetching credits:", error);
     res.status(500).json({ error: error.message });
   }
 };
 
-// 2. Record Payment (FIXED SQL QUERY)
+// 2. Record Payment
 const recordPayment = async (req, res) => {
   const { credit_id, amount, payment_method, reference, user_id } = req.body;
 
@@ -51,7 +65,7 @@ const recordPayment = async (req, res) => {
       throw new Error(`Overpayment. Max allowed: ${currentBalance}`);
     }
 
-    // Insert Payment Record (Fixed placeholders)
+    // Insert Payment Record
     await connection.query(
       `INSERT INTO credit_payments (credit_id, payment_date, payment_method, payment_reference, amount, created_by) 
              VALUES (?, NOW(), ?, ?, ?, ?)`,
@@ -60,10 +74,8 @@ const recordPayment = async (req, res) => {
 
     // Update Credit Sales Table
     const newPaid = parseFloat(credit[0].paid_amount) + parseFloat(amount);
-    const newBalance = parseFloat(credit[0].total_amount) - newPaid;
-
-    // IMPORTANT: Ensure status becomes 'paid' if balance is 0 or less
-    const newStatus = newBalance <= 0.01 ? "paid" : "partial";
+    const newStatus =
+      parseFloat(credit[0].total_amount) - newPaid <= 0.01 ? "paid" : "partial";
 
     await connection.query(
       `UPDATE credit_sales SET paid_amount = ?, status = ? WHERE credit_id = ?`,
@@ -89,16 +101,15 @@ const recordPayment = async (req, res) => {
 
 // 3. Get Payment History
 const getPaymentHistory = async (req, res) => {
-  const { id } = req.params; // This is the credit_id
   try {
-    const query = `
-            SELECT payment_id, payment_date, payment_method, payment_reference, amount, u.username
-            FROM credit_payments cp
-            JOIN users u ON cp.created_by = u.user_id
-            WHERE cp.credit_id = ? 
-            ORDER BY cp.payment_date DESC
-        `;
-    const [history] = await db.execute(query, [id]);
+    const [history] = await db.execute(
+      `SELECT cp.payment_id, cp.payment_date, cp.payment_method, cp.payment_reference, cp.amount, u.username
+             FROM credit_payments cp
+             JOIN users u ON cp.created_by = u.user_id
+             WHERE cp.credit_id = ? 
+             ORDER BY cp.payment_date DESC`,
+      [req.params.id],
+    );
     res.json(history);
   } catch (error) {
     res.status(500).json({ error: error.message });
@@ -138,26 +149,6 @@ const getFinancialStats = async (req, res) => {
   }
 };
 
-//  Get All Payments (Global Log)
-const getAllPayments = async (req, res) => {
-  try {
-    const query = `
-            SELECT cp.payment_id, cp.payment_date, cp.payment_method, cp.payment_reference, cp.amount, 
-                   u.username, si.invoice_number, c.customer_name
-            FROM credit_payments cp
-            JOIN users u ON cp.created_by = u.user_id
-            JOIN credit_sales cs ON cp.credit_id = cs.credit_id
-            JOIN sales_invoices si ON cs.invoice_id = si.invoice_id
-            JOIN customers c ON cs.customer_id = c.customer_id
-            ORDER BY cp.payment_date DESC LIMIT 100
-        `;
-    const [history] = await db.execute(query);
-    res.json(history);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-};
-
 // 5. Add Expense
 const addExpense = async (req, res) => {
   const { date, category, amount, description, user_id } = req.body;
@@ -184,12 +175,32 @@ const getExpenses = async (req, res) => {
   }
 };
 
+// 7. Get All Payments (Global Log)
+const getAllPayments = async (req, res) => {
+  try {
+    const query = `
+            SELECT cp.payment_id, cp.payment_date, cp.payment_method, cp.payment_reference, cp.amount, 
+                   u.username, si.invoice_number, c.customer_name
+            FROM credit_payments cp
+            JOIN users u ON cp.created_by = u.user_id
+            JOIN credit_sales cs ON cp.credit_id = cs.credit_id
+            JOIN sales_invoices si ON cs.invoice_id = si.invoice_id
+            JOIN customers c ON cs.customer_id = c.customer_id
+            ORDER BY cp.payment_date DESC LIMIT 100
+        `;
+    const [history] = await db.execute(query);
+    res.json(history);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 module.exports = {
   getCreditList,
   recordPayment,
   getPaymentHistory,
-  getAllPayments,
   getFinancialStats,
   addExpense,
   getExpenses,
+  getAllPayments,
 };
