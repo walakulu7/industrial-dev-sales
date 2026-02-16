@@ -198,3 +198,32 @@ exports.recordPayment = async (req, res) => {
     connection.release();
   }
 };
+// Get All Invoices (With Date Filter)
+exports.getAllInvoices = async (req, res) => {
+  try {
+    const { startDate, endDate } = req.query;
+
+    let query = `
+            SELECT i.invoice_id, i.invoice_number, i.invoice_date, i.total_amount, i.paid_amount, i.status, 
+                   c.customer_name, b.branch_name
+            FROM sales_invoices i
+            JOIN customers c ON i.customer_id = c.customer_id
+            JOIN branches b ON i.branch_id = b.branch_id
+        `;
+
+    const params = [];
+
+    // Apply Date Filter if provided
+    if (startDate && endDate) {
+      query += ` WHERE DATE(i.invoice_date) BETWEEN ? AND ?`;
+      params.push(startDate, endDate);
+    }
+
+    query += ` ORDER BY i.invoice_date DESC`;
+
+    const [invoices] = await db.execute(query, params);
+    res.json(invoices);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
